@@ -85,7 +85,7 @@ def allPrimes():
 	while True:
 		if isPrime(i):
 			print(i)
-		i++
+		i += 1
 
 	# Sieve of Eratosthenes
 	for x in eratosthenes((2**63)-1):
